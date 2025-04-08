@@ -215,7 +215,7 @@ We welcome contributions! Please follow these steps:
 2. Create a new branch (`feature/new-feature`).
 3. Commit changes and submit a pull request.
 
-For questions or feedback, please contact us at [email@example.com].
+For questions or feedback, please contact us at [garv001@e.ntu.edu.sg].
 
 ---
 
