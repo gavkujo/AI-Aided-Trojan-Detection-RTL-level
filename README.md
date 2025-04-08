@@ -215,9 +215,13 @@ We welcome contributions! Please follow these steps:
 2. Create a new branch (`feature/new-feature`).
 3. Commit changes and submit a pull request.
 
-For questions or feedback, please contact us at [garv001@e.ntu.edu.sg].
+For questions or feedback, please contact us at [garv001@e.ntu.edu.sg], [ygong005@e.ntu.edu.sg].
 
 ---
+
+### Authors
+1. Garv Sachdev [garv001@e.ntu.edu.sg]
+2. 
 
 ## **License**
 This project is licensed under the MIT License.
