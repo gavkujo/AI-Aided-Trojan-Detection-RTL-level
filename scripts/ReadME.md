@@ -221,3 +221,13 @@ For questions or feedback, please contact us at [email@example.com].
 
 ## **License**
 This project is licensed under the MIT License.
+
+--- 
+
+Let me know if you need help customizing this README further!
+
+Citations:
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/59311014/c6872f8e-a9d2-4fb2-bf7d-cdf087ed1709/paste.txt
+
+---
+Answer from Perplexity: pplx.ai/share

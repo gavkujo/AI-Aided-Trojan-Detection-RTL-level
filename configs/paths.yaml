@@ -1,0 +1,28 @@
+paths:
+  model_weights: "models/pretrained/gnn_model.pth"
+  data_dir: "data/"
+  rtl_samples: "data/rtl_samples/"
+  layout_samples: "data/layout_samples/"
+  dataset: "data/rtl_samples/"  # Dataset for training
+  
+rtl_params:
+  embedding_size: 128
+  window_size: 5
+  num_walks: 20
+  walk_length: 40
+  use_graph_builder: false  # Whether to use GraphBuilder or internal _build_graph
+
+layout_params:
+  yolo_model: "models/yolo/best.pt"
+  confidence_thresh: 0.7
+  iou_thresh: 0.4
+  layers_to_analyze: [1, 2, 3]  # Layer IDs to analyze
+  layer_mapping:
+    "METAL1": [1, 0]
+    "METAL2": [2, 0]
+    "VIA": [3, 0]
+  class_map:
+    0: "RogueVia"
+    1: "UnauthorizedFiller"
+    2: "PowerTamper"
+    3: "ThermalHotspot"

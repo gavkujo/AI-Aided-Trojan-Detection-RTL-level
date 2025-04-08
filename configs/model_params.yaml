@@ -1,0 +1,30 @@
+gnn:
+  input_dim: 128
+  hidden_dim: 256
+  output_dim: 2
+  learning_rate: 0.001
+  dropout: 0.3
+  epochs: 100
+  batch_size: 32
+  val_split: 0.2
+
+yolo:
+  input_size: 1024
+  anchors: [10,13, 16,30, 33,23]
+  pretrained_weights: "yolov8n.pt"
+  epochs: 50
+  batch_size: 16
+  img_size: 1024
+
+autoencoder:
+  latent_dim: 32
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  contamination: 0.01  # For isolation forest
+
+training:
+  device: "cuda"  # or "cpu"
+  early_stopping: true
+  patience: 10
+  save_best: true
